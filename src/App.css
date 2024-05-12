@@ -18,7 +18,17 @@
   --color-dark-red: #9B2226;
 }
 
+.container {
+  width: 100%;
+}
 
-.h1text {
-  color: var(--color-soft-green)
+#header {
+  position: sticky;
+  background-color: var(--color-pale-blue); 
+  z-index: 1000; 
+  /* width: 100%; */
+}
+
+.main {
+  height: 60%px;
 }
