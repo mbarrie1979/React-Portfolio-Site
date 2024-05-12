@@ -19,17 +19,29 @@
 }
 
 .container {
-  width: 100%;
+  /* width: 100%; */
   background-color: var(--color-sun-yellow);
 }
 
 #header {
   position: sticky;
-  background-color: var(--color-pale-blue); 
-  z-index: 1000; 
+  background-color: var(--color-pale-blue);
+  z-index: 1000;
   /* width: 100%; */
 }
 
 .main {
   height: 60%px;
+}
+
+.project-card {
+  color: var(--color-teal-blue);
+  font-size: 3em;
+  font-weight: 400;
+  text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000, /* Outline effect */
+    3px 5px 4px rgba(0,0,0,0.6); /* Additional shadow for depth */
 }
