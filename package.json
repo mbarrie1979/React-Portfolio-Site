@@ -9,7 +9,7 @@
     "build": "vite build",
     "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "push": "git add . && git commit -m \"$npm_config_message\" && git push"
+    "push": "git add . && git commit -m \"$npm_config_message\" && git push origin develop"
   },
   "dependencies": {
     "react": "^18.2.0",
