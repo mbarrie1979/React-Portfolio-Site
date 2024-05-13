@@ -14,16 +14,16 @@ export default function Navigation() {
             <div className="collapse navbar-collapse" id="navbarNav">
                 <ul className="navbar-nav">
                     <li className="nav-item active">
-                        <Link className="nav-link" to="/">About Me</Link>
+                        <Link className="nav-link nav-text" to="/">About Me</Link>
                     </li>
                     <li className="nav-item">
-                        <Link className="nav-link" to="/portfolio">Portfolio</Link>
+                        <Link className="nav-link nav-text" to="/portfolio">Portfolio</Link>
                     </li>
                     <li className="nav-item">
-                        <Link className="nav-link" to="/resume">Resume</Link>
+                        <Link className="nav-link nav-text" to="/resume">Resume</Link>
                     </li>
                     <li className="nav-item">
-                        <Link className="nav-link" to="/contact">Contact</Link>
+                        <Link className="nav-link nav-text" to="/contact">Contact</Link>
                     </li>
                 </ul>
             </div>
