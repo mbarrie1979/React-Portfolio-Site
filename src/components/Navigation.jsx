@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 export default function Navigation() {
     return (
-        <nav className="navbar navbar-expand-lg navbar-light header">
+        <nav className="navbar navbar-expand-lg navbar-light">
             <Link className="navbar-brand" src='' href="#">Mark Barrie</Link>
             <button className="navbar-toggler" type="button"
                 data-bs-toggle="collapse" data-bs-target="#navbarNav"

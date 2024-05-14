@@ -14,10 +14,10 @@ function App() {
   return (
     <Router>
       <div className='container vw-100 vh-100'>
-        <header className='row' id='header'>
+        <header className='row header' id='header'>
           <Header />
         </header>
-        <main className='row main'>
+        <main className='main vh-100'>
           <Routes>
             <Route path="/" element={<AboutMe />} />
             <Route path="/portfolio" element={<Portfolio />} />
