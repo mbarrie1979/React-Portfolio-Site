@@ -2,6 +2,9 @@ import Project from "./Project"
 import FunCast from '../assets/FunCast.webp'
 import CodingQuiz from '../assets/CodingQuiz.webp'
 import PasswordGen from '../assets/PasswordGen.webp'
+import NoteTaker from '../assets/NoteTaker.webp'
+import WorkdayScheduler from '../assets/WorkdayScheduler.webp'
+import WeatherPlanner from '../assets/WeatherPlanner.webp'
 
 
 const projectData = [
@@ -28,6 +31,30 @@ const projectData = [
       description: "Generate a password",
       siteLink: "https://mbarrie1979.github.io/Password-Generator/",
       repoLink: "https://github.com/mbarrie1979/Password-Generator"
+    },
+    {
+      id: 4,
+      title: "Notetaker App",
+      image: NoteTaker,
+      description: "Add and delete your notes",
+      siteLink: "https://note-taker-app-mark-barrie-ce98b5447988.herokuapp.com/",
+      repoLink: "https://github.com/mbarrie1979/Note-Taker?tab=readme-ov-file"
+    },
+    {
+      id: 5,
+      title: "Workday Scheduler",
+      image: WorkdayScheduler,
+      description: "Add and delete your daily schedule items",
+      siteLink: "https://mbarrie1979.github.io/Work-Day-Scheduler/",
+      repoLink: "https://github.com/mbarrie1979/Work-Day-Scheduler"
+    },
+    {
+      id: 6,
+      title: "Weather Planner",
+      image: WeatherPlanner,
+      description: "Search for weather",
+      siteLink: "https://mbarrie1979.github.io/Weather_Planner/",
+      repoLink: "https://github.com/mbarrie1979/Weather_Planner"
     },
     
   ];
