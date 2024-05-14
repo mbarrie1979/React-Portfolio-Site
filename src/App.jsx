@@ -13,7 +13,7 @@ function App() {
 
   return (
     <Router>
-      <div className='container vw-100 vh-100'>
+      <div className='container-fluid vw-100 vh-100'>
         <header className='row header' id='header'>
           <Header />
         </header>

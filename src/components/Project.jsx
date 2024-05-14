@@ -12,7 +12,7 @@ export default function Project({ title, image, description, siteLink, repoLink 
     return (
         <div className="project-card" style={backgroundStyle}>
             {/* <img src={image} alt={title} /> */}
-            <h2 className="display-1">{title}</h2>
+            <h2 className="display-1 text-white">{title}</h2>
             <p className="display-5">{description}</p>
             <a href={siteLink} target="_blank" rel="noopener noreferrer">View Demo</a>
             <a href={repoLink} target="_blank" rel="noopener noreferrer">View Code</a>
