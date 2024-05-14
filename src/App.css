@@ -20,11 +20,13 @@
 
 
 
-#header {
-  position: sticky;
+.header {
+  /* position: fixed; */
   background-color: var(--color-pale-blue);
   z-index: 1000;
-  /* width: 100%; */
+  /* width: 1280px; */
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1),  /* Lower, more diffused shadow */
+               0 1px 3px rgba(0,0,0,0.08); /* Upper, closer shadow for depth */
 }
 
 /* .main {
@@ -37,11 +39,15 @@
 
 }
 
+.main{
+  background-color: var(--color-sand);
+}
+
 .project-card {
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
-  color: var(--color-sun-yellow);
+  color: var(--color-sand);
   font-size: 3em;
   font-weight: 400;
   text-shadow:
