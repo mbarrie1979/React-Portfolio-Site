@@ -26,6 +26,18 @@ export default function Navigation() {
                     <li className="nav-item">
                         <NavLink className="nav-link nav-text" activeclassname="active" to="/contact">Contact</NavLink>
                     </li>
+                    <li className="nav-item">
+                        {/* these are left blank intentionally */}
+                    </li>
+                    <li className="nav-item">
+                        {/* these are left blank intentionally */}
+                    </li>
+                    <li className="nav-item">
+                        {/* these are left blank intentionally */}
+                    </li>
+                    <li className="nav-item">
+                        {/* these are left blank intentionally */}
+                    </li>
                 </ul>
             </div>
         </nav>
