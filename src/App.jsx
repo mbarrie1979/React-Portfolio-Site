@@ -6,6 +6,7 @@ import AboutMe from './components/About Me';
 import Contact from './components/Contact';
 import Resume from './components/Resume';
 import Portfolio from './components/Potfolio';
+import Footer from './components/Footer';
 
 
 function App() {
@@ -25,8 +26,8 @@ function App() {
             <Route path="/contact" element={<Contact />} />
           </Routes>
         </main>
-        <footer className='row'>
-
+        <footer className='row footer'>
+          <Footer />
         </footer>
       </div>
     </Router>

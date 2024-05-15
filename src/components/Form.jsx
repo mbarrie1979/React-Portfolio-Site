@@ -51,8 +51,9 @@ function Form() {
     return (
         <div className="container text-center">
             <h1>Let's Keep in Touch!</h1>
-            <form className="form" onSubmit={handleFormSubmit}>
+            <form className="form row" onSubmit={handleFormSubmit}>
                 <input
+                    className='col-8'
                     value={email}
                     name="email"
                     onChange={handleInputChange}
@@ -61,6 +62,7 @@ function Form() {
                     autoComplete="off"
                 />
                 <input
+                    className='col-8'
                     value={userName}
                     name="userName"
                     onChange={handleInputChange}
@@ -69,14 +71,15 @@ function Form() {
                     autoComplete="off"
                 />
                 <input
+                    className='col-8'
                     value={password}
                     name="password"
                     onChange={handleInputChange}
                     type="password"
-                    placeholder="Password"
+                    placeholder="password"
                     autoComplete="off"
                 />
-                <button type="submit">Submit</button>
+                <button className="btn btn-success col-2" type="submit">Submit</button>
             </form>
             {errorMessage && (
                 <div>
