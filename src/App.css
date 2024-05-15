@@ -18,6 +18,10 @@
   --color-dark-red: #9B2226;
 }
 
+/* .container-fluid {
+position: relative;
+} */
+
 .about-me {
   display: flex;
 }
@@ -30,11 +34,12 @@
 .about-me-title {
   display: flex;
   justify-content: center;
-  align-items: center;
+  margin-top: 8em;
+  /* align-items: center; */
 }
 
 img {
-  width: 200px;
+  height: fit-content;
   border-radius: 100%;
 }
 
@@ -108,9 +113,13 @@ img {
 
 }
 
+.project-background a{
+  margin: 1em;
+}
+
 .project-card p {
   color: var(--color-pale-blue);
-  background-color: #ca660227;
+  background-color: #ca660211;
   max-width: fit-content;
 
 }
@@ -138,6 +147,7 @@ img {
 }
 
 .footer {
+  /* position: absolute; */
   display: flex;
   justify-content: center;
   background-color: var(--color-pale-blue);
@@ -153,5 +163,5 @@ img {
 
 .footer a {
   width: auto;
-margin: 1em;
+  margin: 1em;
 }
