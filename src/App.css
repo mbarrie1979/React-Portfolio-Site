@@ -17,7 +17,8 @@
   --color-redish-brown: #AE2012;
   --color-dark-red: #9B2226;
 }
-.about-me{
+
+.about-me {
   display: flex;
 }
 
@@ -26,13 +27,13 @@
   font-size: 2em;
 }
 
-.about-me-title{
+.about-me-title {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-img{
+img {
   width: 200px;
   border-radius: 100%;
 }
@@ -44,21 +45,28 @@ img{
   padding: 1em;
   margin: .1em;
   /* width: 1280px; */
-  box-shadow: 0 4px 6px rgba(0,0,0,0.1),  /* Lower, more diffused shadow */
-               0 1px 3px rgba(0,0,0,0.08); /* Upper, closer shadow for depth */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1),
+    /* Lower, more diffused shadow */
+    0 1px 3px rgba(0, 0, 0, 0.08);
+  /* Upper, closer shadow for depth */
 }
 
 /* .main {
   height: 1000px;
 } */
 
-.nav-text{
+.nav-text {
   color: var(--color-dark-orange);
   font-size: 1.5em;
 
 }
 
-.main{
+.active {
+  color: var(--color-pale-blue);
+  font-weight: bold;
+}
+
+.main {
   background-color: var(--color-sand);
 }
 
@@ -74,20 +82,40 @@ img{
     -1px -1px 0 #000,
     1px -1px 0 #000,
     -1px 1px 0 #000,
-    1px 3px 0 #000, /* Outline effect */
-    1px 1px 10px #CA6702; /* Additional shadow for depth */
+    1px 3px 0 #000,
+    /* Outline effect */
+    1px 1px 10px #CA6702;
+  /* Additional shadow for depth */
 }
 
-.project-background{
+.project-background {
   background-color: #e9d8a677;
-  box-shadow: 0 4px 60px #e9d8a693,  /* Lower, more diffused shadow */
-  0 10px 30px #e9d8a693; /* Upper, closer shadow for depth */
+  box-shadow: 0 4px 60px #e9d8a693,
+    /* Lower, more diffused shadow */
+    0 10px 30px #e9d8a693;
+  /* Upper, closer shadow for depth */
 
 }
 
-p {
+.project-card p {
   color: var(--color-pale-blue);
-  background-color:  #ca660227;
+  background-color: #ca660227;
   max-width: fit-content;
 
+}
+
+.form {
+  margin: 20px;
+}
+
+.form input {
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 100%;
+}
+
+.error-text {
+  color: var(--color-dark-blue);
+  font-size: 2em;
 }
