@@ -18,7 +18,7 @@ function App() {
         <header className='row header' id='header'>
           <Header />
         </header>
-        <main className='main vh-100'>
+        <main className='main'>
           <Routes>
             <Route path="/" element={<AboutMe />} />
             <Route path="/portfolio" element={<Portfolio />} />
