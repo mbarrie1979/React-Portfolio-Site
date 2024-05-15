@@ -1,10 +1,11 @@
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
+import Avatar from '../assets/Avatar.webp'
 
 
 export default function Navigation() {
     return (
         <nav className="navbar navbar-expand-lg navbar-light">
-            <Link className="navbar-brand" src='' href="#">Mark Barrie</Link>
+            <h2 className="navbar-brand mt-2">Mark Barrie</h2>
             <button className="navbar-toggler" type="button"
                 data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false"
@@ -14,16 +15,16 @@ export default function Navigation() {
             <div className="collapse navbar-collapse" id="navbarNav">
                 <ul className="navbar-nav">
                     <li className="nav-item active">
-                        <Link className="nav-link nav-text" to="/">About Me</Link>
+                        <NavLink className="nav-link nav-text" activeclassname="active"to="/">About Me</NavLink>
                     </li>
                     <li className="nav-item">
-                        <Link className="nav-link nav-text" to="/portfolio">Portfolio</Link>
+                        <NavLink className="nav-link nav-text" activeclassname="active" to="/portfolio">Portfolio</NavLink>
                     </li>
                     <li className="nav-item">
-                        <Link className="nav-link nav-text" to="/resume">Resume</Link>
+                        <NavLink className="nav-link nav-text" activeclassname="active" to="/resume">Resume</NavLink>
                     </li>
                     <li className="nav-item">
-                        <Link className="nav-link nav-text" to="/contact">Contact</Link>
+                        <NavLink className="nav-link nav-text" activeclassname="active" to="/contact">Contact</NavLink>
                     </li>
                 </ul>
             </div>
