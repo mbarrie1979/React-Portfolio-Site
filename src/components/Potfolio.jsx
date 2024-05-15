@@ -1,5 +1,5 @@
 import Project from "./Project"
-import FunCast from '../assets/FunCast.webp'
+import FunCast2 from '../assets/FunCast2.webp'
 import CodingQuiz from '../assets/CodingQuiz.webp'
 import PasswordGen from '../assets/PasswordGen.webp'
 import NoteTaker from '../assets/NoteTaker.webp'
@@ -11,7 +11,7 @@ const projectData = [
     {
       id: 1,
       title: "Fun Cast",
-      image: FunCast,
+      image: FunCast2,
       description: "Theme Park Current Wait Times and Weather.",
       siteLink: "https://mbarrie1979.github.io/Theme-Parks-Waiting-Times-and-Weather-NEW/",
       repoLink: "https://github.com/mbarrie1979/Theme-Parks-Waiting-Times-and-Weather-NEW"

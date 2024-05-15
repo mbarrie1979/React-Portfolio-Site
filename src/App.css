@@ -17,8 +17,25 @@
   --color-redish-brown: #AE2012;
   --color-dark-red: #9B2226;
 }
+.about-me{
+  display: flex;
+}
 
+.about-me p {
+  color: var(--color-dark-blue);
+  font-size: 2em;
+}
 
+.about-me-title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img{
+  width: 200px;
+  border-radius: 100%;
+}
 
 .header {
   /* position: fixed; */
@@ -47,17 +64,25 @@
 
 .project-card {
   display: flex;
+  background-color: var(--color-sand);
   /* justify-content: center; */
   align-items: center;
   color: var(--color-sand);
   font-size: 3em;
-  font-weight: 400;
+  font-weight: 600;
   text-shadow:
     -1px -1px 0 #000,
     1px -1px 0 #000,
     -1px 1px 0 #000,
     1px 3px 0 #000, /* Outline effect */
     1px 1px 10px #CA6702; /* Additional shadow for depth */
+}
+
+.project-background{
+  background-color: #e9d8a677;
+  box-shadow: 0 4px 60px #e9d8a693,  /* Lower, more diffused shadow */
+  0 10px 30px #e9d8a693; /* Upper, closer shadow for depth */
+
 }
 
 p {
