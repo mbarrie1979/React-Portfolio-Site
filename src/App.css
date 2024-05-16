@@ -1,7 +1,5 @@
 #root {
   max-width: 1280px;
-  /* margin: 0 auto;
-  padding: 2rem; */
   text-align: center;
 }
 
@@ -17,10 +15,10 @@
   --color-redish-brown: #AE2012;
   --color-dark-red: #9B2226;
 }
-
-/* .container-fluid {
-position: relative;
-} */
+.main{
+  display: flex;
+  justify-content: center;
+}
 
 .about-me {
   display: flex;
@@ -88,10 +86,9 @@ img {
 
 .project-card {
   display: flex;
-  background-color: var(--color-sand);
   /* justify-content: center; */
   align-items: center;
-  color: var(--color-sand);
+  color: var(--color-dark-blue);
   font-size: 3em;
   font-weight: 600;
   text-shadow:
@@ -104,18 +101,7 @@ img {
   /* Additional shadow for depth */
 }
 
-.project-background {
-  background-color: #e9d8a677;
-  box-shadow: 0 4px 60px #e9d8a693,
-    /* Lower, more diffused shadow */
-    0 10px 30px #e9d8a693;
-  /* Upper, closer shadow for depth */
 
-}
-
-.project-background a{
-  margin: 1em;
-}
 
 .project-card p {
   color: var(--color-pale-blue);
@@ -137,8 +123,12 @@ img {
   display: block;
   margin-top: 5px;
   margin-bottom: 5px;
-  width: 80%;
+  width: 120%;
   height: 3em;
+}
+
+.form button {
+  width: 20%;
 }
 
 .error-text {
