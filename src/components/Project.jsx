@@ -6,10 +6,11 @@ export default function Project({ title, image, description, siteLink, repoLink 
         height: '300px',
         display: 'flex',
         flexDirection: 'column',
-        // alignItems: 'center'
         justifyContent: 'center',
-        padding: '20px'
+        padding: '20px',
+        border: '4px solid #000' // Add this line to include a border
     };
+    
     return (
         <div className="project-card" style={backgroundStyle}>
             <div className="row project-background">

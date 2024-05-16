@@ -1,17 +1,17 @@
 import Project from "./Project"
-import FunCast2 from '../assets/FunCast2.webp'
-import CodingQuiz from '../assets/CodingQuiz.webp'
-import PasswordGen from '../assets/PasswordGen.webp'
-import NoteTaker from '../assets/NoteTaker.webp'
-import WorkdayScheduler from '../assets/WorkdayScheduler.webp'
-import WeatherPlanner from '../assets/WeatherPlanner.webp'
+import FunCast3 from '../assets/FunCast3.png'
+import CodingQuiz from '../assets/CodingQuiz3.png'
+import PasswordGen from '../assets/PasswordGen2.png'
+import NoteTaker from '../assets/NoteTaker2.png'
+import WorkdayScheduler from '../assets/WorkdayScheduler2.png'
+import WeatherPlanner from '../assets/WeatherPlanner2.png'
 
 
 const projectData = [
     {
       id: 1,
       title: "Fun Cast",
-      image: FunCast2,
+      image: FunCast3,
       description: "Theme Park Current Wait Times and Weather.",
       siteLink: "https://mbarrie1979.github.io/Theme-Parks-Waiting-Times-and-Weather-NEW/",
       repoLink: "https://github.com/mbarrie1979/Theme-Parks-Waiting-Times-and-Weather-NEW"
@@ -50,7 +50,7 @@ const projectData = [
     },
     {
       id: 6,
-      title: "Weather Planner",
+      title: "Weather Report",
       image: WeatherPlanner,
       description: "Search for weather",
       siteLink: "https://mbarrie1979.github.io/Weather_Planner/",
