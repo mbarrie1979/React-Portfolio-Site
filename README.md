@@ -16,7 +16,7 @@
 
 ## Description
 
-The site was create to showcase my developement skills in REACT.  It utilizes Vite, React Router, NavLink and general functionality of React. 
+The site was created to showcase my developement skills in REACT.  It utilizes Vite, React Router, NavLink and the general functionality of React. 
 
 
 ## User Story
