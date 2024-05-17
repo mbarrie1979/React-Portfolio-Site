@@ -6,8 +6,8 @@ export default function Resume() {
                 Download Resume
             </a>
             <section className="resume-webdev row">
+                <h2 className="text-shadow">Proficiencies</h2>
                 <section className="mb-3">
-                    <h2 className="text-shadow">Proficiencies</h2>
                     <h3 className="text-shadow">Web Development</h3>
                     <ul className="resume-list">
                         <li>HTML</li>
